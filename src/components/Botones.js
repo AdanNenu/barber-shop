@@ -24,20 +24,20 @@ const colapsarBotonera  = true; //Si es false, funciona con normalidad. Si es Tr
 const telefonoWA = "+52";
 const telefonoMovil = "+524771234567";
 const correoGmail = "";
-const urlMaps = "https://maps.app.goo.gl/SDrNf61UzYTD5FaM8";
+const urlMaps = "https://maps.app.goo.gl/jLkui5QLjNx1A4YbA";
 const urlCalendy = "https://calendly.com/adanmendezeng/reservar-espacio";
 const url1 = "";
 const url2 = ""; 
 const url3 = ""; 
 const url4 = "";
-const url5 = ""
-const url6 = ""
-const url7 = ""
-const url8 = ""
+const url5 = "";
+const url6 = "";
+const url7 = "";
+const url8 = "";
 const url9 = "";
-const url10 = ""
+const url10 = "";
 const mensajeWhats = encodeURIComponent("¡Hola!");
-const mensajeCompartir = encodeURIComponent("Sonríe con confianza.");
+const mensajeCompartir = encodeURIComponent("Es viernes y tu cuerpo lo sabe.");
 const mensajeGmail = encodeURIComponent("¡Hola!");
 
 // Cargar imágenes sin que truene si no existen
@@ -174,7 +174,7 @@ const Botones = ({ onPlayPause, onRewind, onForward, onToggleMute, isMuted, isPl
 
   const compartir = async () => {
     const shareData = {
-      title: "Dentista",
+      title: "BarberStyle",
       text: decodeURIComponent(mensajeCompartir),
       url: window.location.href,
     };
@@ -277,8 +277,8 @@ const Botones = ({ onPlayPause, onRewind, onForward, onToggleMute, isMuted, isPl
 
 
           const defaults = {
-            H: { galeria1: "https://www.canva.com/design/DAGuUBRzATc/vd1ypOkcqGT8CzFapzKJRA/view?embed" },
-            V: { galeria1: "https://www.canva.com/design/DAGuUJCCHFI/kBg_671sTRw3IQ4ldV1aTQ/view?embed" },
+            H: { galeria1: "https://www.canva.com/design/DAGuZYUO-L4/IEe6ATTkchuoOIdokltHFw/view?embed" },
+            V: { galeria1: "https://www.canva.com/design/DAGuZWp0Sas/Fw3pKjMg68ugSQ4NeaalRA/view?embed" },
           };
 		  
 			const nuevasGalerias = {
